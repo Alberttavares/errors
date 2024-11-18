@@ -1,4 +1,4 @@
-Aqui está o conteúdo atualizado do seu `README.md`, com as orientações de filtragem de busca por título, tag, e combinação de título e tag:
+
 
 
 # 📚 Repositório de Documentação de Erros
