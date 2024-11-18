@@ -1,3 +1,6 @@
+Aqui está o conteúdo atualizado do seu `README.md`, com as orientações de filtragem de busca por título, tag, e combinação de título e tag:
+
+
 # 📚 Repositório de Documentação de Erros
 
 Bem-vindo ao repositório de erros! Este repositório foi criado para documentar os problemas encontrados durante o desenvolvimento e as soluções aplicadas. Aqui você pode **encontrar erros já registrados** ou **reportar um novo erro**.
@@ -15,6 +18,31 @@ Bem-vindo ao repositório de erros! Este repositório foi criado para documentar
 
 3. **Leia a Documentação**:
    - Clique em uma Issue para ver os detalhes, contexto e possíveis soluções.
+
+### Filtragem de Issues
+
+Você pode usar diferentes filtros de busca para encontrar a Issue que procura:
+
+#### 🔑 **Buscar por Título**
+Se você quer buscar por uma palavra ou frase específica no título de uma issue, use o filtro `in:title`. Exemplo:
+```plaintext
+in:title "erro de login"
+```
+Isso encontrará todas as issues cujo título contenha "erro de login".
+
+#### 🏷️ **Buscar por Etiquetas (Tags)**
+Você pode buscar issues por etiquetas específicas. Para isso, use o filtro `label:<nome-da-etiqueta>`. Exemplo:
+```plaintext
+label:frontend
+```
+Isso encontrará todas as issues com a etiqueta `frontend`.
+
+#### 🔑🏷️ **Buscar por Título e Etiqueta**
+Se você deseja buscar por um termo no título **e** por uma etiqueta específica, combine ambos os filtros. Exemplo:
+```plaintext
+in:title "login" label:frontend
+```
+Isso encontrará issues que tenham "login" no título **e** que sejam marcadas com a etiqueta `frontend`.
 
 ---
 
@@ -60,4 +88,4 @@ Bem-vindo ao repositório de erros! Este repositório foi criado para documentar
 
 ---
 
-Se tiver dúvidas ou sugestões, entre em contato com o gerente de projetos ou o gerente de processos internos.
+Se tiver dúvidas ou sugestões, entre em contato com o diretor, gerente de projetos ou o gerente de processos internos.
