@@ -1,6 +1,3 @@
-
-
-
 # 📚 Repositório de Documentação de Erros
 
 Bem-vindo ao repositório de erros! Este repositório foi criado para documentar os problemas encontrados durante o desenvolvimento e as soluções aplicadas. Aqui você pode **encontrar erros já registrados** ou **reportar um novo erro**.
